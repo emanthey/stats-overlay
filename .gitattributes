@@ -1,0 +1,10 @@
+* text=auto
+
+# Linux scripts must keep LF endings, Windows batch files CRLF, regardless of checkout platform.
+*.sh  text eol=lf
+*.py  text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.ico binary

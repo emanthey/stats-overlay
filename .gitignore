@@ -1,0 +1,7 @@
+# Build output (built locally with windows/build.bat)
+*.exe
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
